@@ -1,11 +1,8 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<h1>Community Maintenance System</h1>} />
-    </Routes>
+    <div style={{ padding: "40px", fontSize: "24px" }}>
+      🚀 Community Maintenance System is LIVE
+    </div>
   );
 }
 
